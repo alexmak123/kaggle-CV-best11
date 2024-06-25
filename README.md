@@ -1,2 +1,2 @@
 # kaggle-CV-best11
-https://www.kaggle.com/discussions/general/205017
+my solutions to best11 CV competitions on kaggle https://www.kaggle.com/discussions/general/205017
