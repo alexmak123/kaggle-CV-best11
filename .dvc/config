@@ -5,4 +5,4 @@
     type = copy
     slow_link_warning = false
 ['remote "kaggle_cv_dvc_data"']
-    url = ../gdrive:dvc-remote/1m3y1c_sAdIlXyJHc5XvAEK20sQg-i0Jh
+    url = gdrive://1m3y1c_sAdIlXyJHc5XvAEK20sQg-i0Jh
