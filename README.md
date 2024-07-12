@@ -10,14 +10,14 @@
 
 - **DVC** для версионирования моделей и данных
 - **Poetry** для управления зависимостями
-- **Pre-commit hooks** для автоматической проверки и форматирования кода перед коммитом
+- **Pre-commit hooks** для автоматической проверки и форматирования кода
 - **GitHub Actions** для CI/CD (настроены прекоммиты)
 
 ## Установка и настройка окружения
 
 1. Установите Poetry и все зависимости:
 ```bash
-curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+curl -sSL https://install.python-poetry.org | python3 -
 git clone https://github.com/alexmak123/kaggle-CV-best11.git
 cd kaggle-cv-best11
 poetry install
