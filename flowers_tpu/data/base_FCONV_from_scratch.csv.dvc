@@ -1,0 +1,4 @@
+outs:
+- md5: 5db39bb2ceb234fbb09e1345db113de9
+  size: 96166
+  path: base_FCONV_from_scratch.csv

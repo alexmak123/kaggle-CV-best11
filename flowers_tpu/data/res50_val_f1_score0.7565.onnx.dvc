@@ -1,0 +1,4 @@
+outs:
+- md5: 7737b0db6442d7b008328a392a18e331
+  size: 94808041
+  path: res50_val_f1_score0.7565.onnx
