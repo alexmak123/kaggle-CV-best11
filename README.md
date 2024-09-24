@@ -19,7 +19,7 @@
 ```bash
 curl -sSL https://install.python-poetry.org | python3 -
 git clone https://github.com/alexmak123/kaggle-CV-best11.git
-cd kaggle-cv-best11
+cd kaggle-CV-best11
 poetry install
 poetry shell
 ```
@@ -39,4 +39,13 @@ dvc pull
 #### Результаты
 - `base_from_scratch` (Fully Connected): 0.63
 - `base_from_scratch` (Fully Convolutional): 0.60
-- `advanced_with_libs` (PyTorch Lightning, TensorBoard + Optuna, Albumentations, timm, captum, ONNX): 0.17 
+- `advanced_with_libs` (PyTorch Lightning, TensorBoard + Optuna, Albumentations, timm, captum, ONNX): 0.17
+
+### 2. Flower Classification With Tpus
+
+- Ссылка: https://www.kaggle.com/competitions/flower-classification-with-tpus
+- Метрика качества: f1-score (выше значение - лучше результат)
+
+#### Результаты
+- `base_from_scratch` (Fully Convolutional): 0.45
+- `advanced_with_libs` (Torch XLA, TFRecord Dataset, PyTorch Lightning, Wandb, Albumentations, timm, GradCAM, ONNX): 0.75
