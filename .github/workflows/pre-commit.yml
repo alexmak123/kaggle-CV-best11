@@ -10,9 +10,9 @@ on:
   workflow_dispatch:
     inputs:
       reason:
-        description: 'Reason for manual start'
+        description: "Reason for manual start"
         required: false
-        default: 'Manual checking'
+        default: "Manual checking"
 
 jobs:
   pre-commit:
